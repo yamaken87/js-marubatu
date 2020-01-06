@@ -35,6 +35,11 @@ h1 {
     font-weight: bold;
 }
 
+.symbol-holder {
+    display: inline-block;
+    width: 20px;
+}
+
 .batsu {
     color: #00b0f0;
 }
@@ -103,6 +108,14 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.js-unclickable {
+    pointer-events: none;
+}
+
+.js-highLight {
+    background-color: #fff2cc;
 }
 
 .btn-container {
