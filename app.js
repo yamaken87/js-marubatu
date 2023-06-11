@@ -14,6 +14,8 @@ const messages = document.querySelectorAll('.message-list li');
 // Array に変換 
 const messagesArray = [].slice.call(messages);
 
+const resetBtn = document.getElementById('reset-btn');
+
 // メッセージ切り替え関数
 function setMessage(id) {
     messagesArray.forEach(function (message) {
